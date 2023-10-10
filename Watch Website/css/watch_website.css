@@ -1,0 +1,294 @@
+html {
+    scroll-behavior: smooth; /*This ensures that the page scrolling is smooth when the buttons on the nav bar is clicked */
+}
+
+/***** VIDEO STYLING *****/
+/* Formatting for background video */
+#Watch_Video {
+    position: relative; /* This fixes the video to the page */
+    min-width: 100%; /* This ensures the video is displayed across the full width of the page */
+}
+/* Screens that are 576px and smaller will not display the background video */
+@media screen and (max-width: 576px) {
+    #Watch_Video {
+        display: none;
+    }
+}
+/* Texts over the video */
+.Video_Text {
+    color:#0077b6; /* Makes the font color white */
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Lucida Handwriting", Optima; /* Sets the font family of all h1 headings */
+    text-shadow: 2px 2px #252525;
+}
+/* Optional: Add animation to the text */
+@keyframes moveVideoText {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -60%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+.Video_Text h1 {
+    font-size: 3em;
+    margin: 0;
+}
+/***** END OF VIDEO STYLING *****/
+
+/***** BODY STYLING *****/
+body {
+    margin: 0%;  /* This ensures our site displays all the way to the edge of the browser screen */
+    opacity: 1; /* This and transition affect the page loading fade in effect */
+    transition: 3s opacity; /* This causes a 3 second fade in */
+    letter-spacing: .2vw; /* vw is a relative measurement, 1vw is equal to 1% of the viewport width */
+    font-family: Avant Garde, Helvetica;
+    font-size: 1.5vw; 
+    overflow-x: hidden; /* This prevents the horizontal scroll bar from appearing when the quote is hovered over */
+    user-select: none; /* This prevents the text on the webpage from being highlighted by the user */
+    background-color: #ffff;
+    position: relative;
+}
+/***** END OF BODY STYLING *****/
+
+/***** <P> STYLING *****/
+p {
+    font-family: "Avant Garde", Optima; /* Sets the font family of all h1 headings */
+    text-align: center; /* Centering all h3 elements */
+    margin-top: 3%; /* Adds a small margin above h1 elements */
+    color: #0077b6; /* Makes the font color yellow. */ 
+}
+/***** <P> STYLING END *****/
+
+/***** <B> STYLING *****/
+b {
+    text-transform: uppercase; /* Capitalizing all h1 headings */
+    font-family: "Avant Garde", Optima; /* Sets the font family of all h1 headings */
+    text-align: center; /* Centering all h3 elements */
+    margin-top: 3%; /* Adds a small margin above h1 elements */
+    color:#0077b6; /* Makes the font color yellow. */
+}
+/***** <B> STYLING END *****/
+
+/***** H1 STYLING *****/
+h1 {
+    text-transform: uppercase; /* Capitalizing all h1 headings */
+    font-family: "Avant Garde", Optima; /* Sets the font family of all h1 headings */
+    text-align: center; /* Centering all h3 elements */
+    margin-top: 3%; /* Adds a small margin above h1 elements */
+    color:#0077b6; /* Makes the font color yellow. */
+}
+/***** H1 STYLING END *****/
+
+/***** H2 STYLING *****/
+h2 {
+    text-transform: uppercase; /* Capitalizing all h1 headings */
+    font-family: "Avant Garde", Optima; /* Sets the font family of all h1 headings */
+    text-align: center; /* Centering all h3 elements */
+    margin-top: 3%; /* Adds a small margin above h1 elements */
+    color:#0077b6; /* Makes the font color yellow. */
+}
+/***** H2 STYLING END *****/
+
+/***** H3 STYLING *****/
+h3 {
+    text-transform: uppercase; /* Capitalizing all h1 headings */
+    font-family: "Avant Garde", Optima; /* Sets the font family of all h1 headings */
+    text-align: center; /* Centering all h3 elements */
+    margin-top: 3%; /* Adds a small margin above h1 elements */
+    color:#0077b6; /* Makes the font color yellow. */
+    text-decoration: underline; 
+}
+/***** H3 STYLING END *****/
+
+/***** <H5> STYLING *****/
+h5 {
+    text-transform: uppercase; /* Capitalizing all h1 headings */
+    font-family: "Lucida Handwriting", Optima; /* Sets the font family of all h1 headings */
+    text-align: center; /* Centering all h3 elements */
+    margin-top: 3%; /* Adds a small margin above h1 elements */
+    color:#0077b6; /* Makes the font color yellow. */
+}
+/***** <H5> STYLING END *****/
+
+/***** IMAGE STYLING *****/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 5px solid #0077b6;
+  }
+/***** IMAGE STYLING END *****/
+
+/***** NAVBAR STYLING *****/
+.Navbar {
+    overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
+    background-color: #0077b6; /* This colors the navbar black */
+    position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
+    top: 0; /* This ensures no space is displayed above the navbar */
+    width: 100%; /* This makes the navbar span the entire width of the page */
+    z-index: 1; /* This ensures other elements don't display over the navbar */
+    -webkit-animation: moveNav 1.5s; /* This applies the moveNav animation below for Safari 4.0 - 8.0 */
+    animation: moveNav 1.5s; /* This applies the moveNav animation for all other browsers */
+}
+/* moveNav animation effect for moving the nav bar in from the left of the screen */
+@keyframes moveNav {
+    from {left: -100vw;} /* The navbar is starting off screen to the left */
+    to {left: 0vw;} /* This moves the navbar into place on the screen */
+}
+/* Navbar links */
+.Navbar a {
+    float: left; /* This specifies that the text floats on the left on the navbar */
+    display: block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
+    color: #ffff; /* This is the font color for text on our navbar */
+    padding: 14px 16px; /* This adds padding around our text */
+    text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
+    font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
+    font-size: 20px; /* This specifies the font size for text on our navbar */
+    text-align: center; /* This centers the text within its container */
+    position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
+    -webkit-animation: moveNavText 3s; /* Animation for Safari 4.0 - 8.0 */
+    animation: moveNavText 3s; /* Applies the moveNavText animation for 5.75s */ 
+}
+/* moveNavText animation effect for moving the navbar text from above the view to the navbar */
+@keyframes moveNavText {
+    from {top: -100vw;} /* This sets the navbar text 100% above the viewport */
+    to {top: 0vw;} /* This lowers the navbar text onto the navbar */
+}
+/* Screens 576px and smaller will display navbar links equally distributed */
+@media screen and (max-width: 576px) {
+    .Navbar a{
+        width: 25%; /* This makes each link take up 1/4 of the navbar */
+        font-size: 12px;
+    }
+}
+/* Navbar hover effects */
+.Navbar a:hover {
+    background-color: #f4f4f4; /* Defines the background color that will display when you hover over the link */
+    color: #252525; /* This defines the font color that will display when navbar a elements are hovered over */
+    font-weight: bold; /* This makes the text on the navbar bold when hovered over */
+    cursor: pointer;
+    transition: 0.5s ease-in; /* Creates a smooth transition for the hover trigger */
+}
+/* Navbar home button */
+.Navbar a.active { /* This targets the a element on the navbar with the "active" class */
+    background-color: #252525;
+}
+/***** END OF NAVBAR STYLING *****/
+
+/***** TEXT BOX STYLING *****/
+.textbox {
+background-color: #ffff;
+  width: 800px;
+  border: 5px solid #0077b6;
+  padding: 50px;
+  margin: 100px;
+  position: relative;
+  left: 450px;
+}
+/***** TEXT BOX END *****/
+
+/***** CARD STYLING *****/
+.card-container {
+    display: flex;
+    justify-content: center; /* This will center cards */
+    flex-wrap: wrap; /* This will wrap the cards to any size screen */
+    margin-top : 100px;
+}
+.card {
+    width: 325px;
+    background-color:#252525;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+/***** CARD END *****/
+
+/***** FOOTER STYLING *****/
+footer {
+    display: block;
+  }
+/***** FOOTER END *****/
+
+/***** SIGN UP FORM STYLING *****/
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+/***** SIGN UP FORM END *****/
