@@ -52,7 +52,7 @@ body {
     font-size: 1.5vw; 
     overflow-x: hidden; /* This prevents the horizontal scroll bar from appearing when the quote is hovered over */
     user-select: none; /* This prevents the text on the webpage from being highlighted by the user */
-    background-color: #ffff;
+    background-color: #cccccb;
     position: relative;
 }
 /***** END OF BODY STYLING *****/
@@ -178,14 +178,14 @@ h5 {
     transition: 0.5s ease-in; /* Creates a smooth transition for the hover trigger */
 }
 /* Navbar home button */
-.Navbar a.active { /* This targets the a element on the navbar with the "active" class */
+.Navbar a.activeNav { /* This targets the a element on the navbar with the "active" class */
     background-color: #252525;
 }
 /***** END OF NAVBAR STYLING *****/
 
 /***** TEXT BOX STYLING *****/
 .textbox {
-background-color: #ffff;
+background-color: #252525;
   width: 800px;
   border: 5px solid #0077b6;
   padding: 50px;
@@ -292,3 +292,151 @@ button:hover {
   }
 }
 /***** SIGN UP FORM END *****/
+
+/***** PAGE TWO SANTOS ******/
+/***** PAGE TWO SANTOS ******/
+
+/***** SANTOS HEADER *****/
+.SantosDisplay {
+  display: block;
+  float: left;
+  width: 60%;
+  position: absolute;
+  top: 80px;
+  left: 60px;
+}
+
+.textbox-2 {
+  background-color: #252525;
+  width: 555px;
+  border: 3px solid #0077b6;
+  padding: 25px;
+  margin: 100px;
+  position: relative;
+  left: 1130px;
+  top: -85px;
+}
+/***** SANTOS HEADER END *****/
+
+/***** SANTOS COLLAPSIBLES *****/
+/* Style the button that is used to open and close the collapsible content */
+.collapsible-1 {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 15px;
+  width: 29%;
+  border: 3px solid #252525;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  position: absolute;
+  left: 60px;
+  top: 850px;
+}
+.collapsible-2 {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 15px;
+  width: 29%;
+  border: 3px solid #252525;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  position: absolute;
+  left: 60px;
+  top: 925px;
+}
+.collapsible-3 {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 15px;
+  width: 29%;
+  border: 3px solid #252525;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  position: absolute;
+  left: 60px;
+  top: 1000px;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  width: 29%;
+  position: absolute;
+  left: 60px;
+  top: 1080px;
+}
+
+.collapsible-1:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+.collapsible-2:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+.collapsible-3:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+/***** SANTOS COLLAPSIBLES END *****/
+
+/***** SLIDESHOW STYLING *****/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1141px;
+  position: absolute;
+  margin: auto;
+  left: 645px;
+  top: 850px;
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/***** SLIDESHOW STYLING END *****/
+
+
+
+
+
+
+
+
+
+/***** PAGE TWO SANTOS END ******/
+/***** PAGE TWO SANTOS END ******/
