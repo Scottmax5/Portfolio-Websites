@@ -8,3 +8,7 @@ This portfolio is a constant work in progress and will be updated as I have comp
 <p>This website is a template for a watch website show casing multiple watches from the companies collection. It is a home page that has a banner video, fully working navbar that will jump to different sections of the front page. Three cards that show pictures of the watches with title and description with links that will bring you to other webpages. The front page is ended with a contact link and a signup for creating an account.
 
 The pages that are linked in the cards link to a page displaying the associated watch. These pages showcase the watch, descriptions, collapsible menus to give more information and slideshow displaying pictures of the watch.<p>
+
+<h1>Dog Insurance Website</h1>
+
+<p>This website is a template for a pet/dog insurane website, the main page has a header with background picture. Text boxes with links to the appropriate webpages, and a footer with links to different pages including a return to the top of page. The footer also has a email submit form, and the contract information with social media links. The rest of the website has information of company with useful links to the contact page with a fully functioning contact form. The sticky navbar is present on all pages for easy navigation.</p>
