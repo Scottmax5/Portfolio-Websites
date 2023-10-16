@@ -1,0 +1,301 @@
+html {
+    scroll-behavior: smooth; /*This ensures that the page scrolling is smooth when the buttons on the nav bar is clicked */
+}
+
+body {background-color: #BAFF39;
+}
+/***** BIG HEADER STYLING *****/
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #6E6E6E;
+    color: #BAFF39;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+/***** BIG HEADER STYLING END *****/
+
+/***** NAVBAR STYLING *****/
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.navbar li {
+    display: inline-block;
+}  
+.navbar li a {
+    display: block;
+    color: #BAFF39;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  /* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+    background-color: #111;
+}
+/***** NAV BAR STYLING END *****/
+
+/***** HEADER IMAGE STYLING *****/
+img {
+    width: 100%;
+  }
+.HeaderImage {
+    position: relative;
+    text-align: center;
+    color: #BAFF39;
+    font-size: 60px;
+  }
+.text-1 {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    border: 5px solid;
+    border-radius: 25px;
+    background-color: #252525;
+    width: 500px;
+    padding: 50px;
+    margin: 100px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.HeaderImage a {
+  background: transparent;
+    border: 2px solid #BAFF39;
+    color: #BAFF39;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+/***** HEADER IMAGE STYLING END *****/
+/***** BODY IMAGE STYLING *****/
+body, html{
+  margin:0;
+  padding:0;
+}
+.BodyImage {
+    position: relative;
+    text-align: center;
+    color: #BAFF39;
+    font-size: 60px;
+  }
+.text-2 {
+    position: absolute;
+    top: 50px;
+    left: 1050px;
+    border: 5px solid;
+    border-radius: 25px;
+    background-color: #252525;
+    width: 450px;
+    padding: 50px;
+    margin: 100px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.BodyImage a {
+  background: transparent;
+  border: 2px solid #BAFF39;
+  color: #BAFF39;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 30px;
+  cursor: pointer;
+}
+  /***** BODY IMAGE STYLING END *****/
+
+/***** FOOTER STYLING *****/
+.footer {
+  margin-top: 10px;
+  width: 100%;
+  padding: 100px, 15%;
+  background: #333;
+  color: #BAFF39;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer div {
+  text-align: center;
+}
+.col-1 {
+  flex: 1;
+  text-align: left;
+}
+.col-2 {
+  flex: 1;
+  text-align: center;
+}
+.col-3 {
+  flex: 1;
+  text-align: right; 
+}
+.footer div h3 {
+  font-weight:  300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.col-1 a {
+  display: block;
+  text-decoration: none;
+  color: #BAFF39;
+  margin-bottom: 10px;
+}
+form input {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+form button {
+  background: transparent;
+  border: 2px solid #BAFF39;
+  color: #BAFF39;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.social-icons {
+  margin-top: 30px;
+}
+.social-icons i {
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
+}
+/***** FOOTER STYLING END *****/
+
+/***** HEALTH PLAN PAGE *****/
+/* HEALTH PLAN HEADER */
+.HealthplanImage {
+  position: relative;
+  text-align: center;
+  color: #BAFF39;
+  font-size: 60px;
+}
+.text-3 {
+  position: absolute;
+  top: -30px;
+  left: 300px;
+  border: 5px solid;
+  border-radius: 25px;
+  background-color: #252525;
+  width: 1000px;
+  padding: 50px;
+  margin: 100px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* HEALTH PLAN HEADER END */
+/* HEALTH PLAN BODY */
+
+.hpTextBox {
+  background-color: #333;
+  width: fill;
+  height: 650px;
+  border: none;
+  padding: 50px;
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+.hpTextBox h1 {
+  text-align: left;
+  font-size: 50px;
+  color: #BAFF39;
+  width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hpTextBox p {
+  text-align: left;
+  font-size: 25px;
+  color: #BAFF39;
+  width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hpTextBox img {
+  position: relative; 
+  width: 55%;
+  margin-left: 759px;
+  margin-top: -800px;
+}
+.hpTextBox a {
+    background: transparent;
+    border: 2px solid #BAFF39;
+    color: #BAFF39;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+/***** HEALTH PLAN PAGE END *****/
+
+/***** ABOUT US PAGE *****/
+/* BOX BACKGROUND */
+.box {
+  background-color: #333;
+  width: fit-content;
+  height: 1000px;
+  border: none;
+  padding: 50px;
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+.box h1 {
+  text-align: center;
+  font-size: 80px;
+  color: #BAFF39;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* BOX BACKGROUND END */
+/* CARDS */
+.card-container {
+  display: flex;
+  justify-content: center; /* This will center cards */
+  justify-content: space-evenly;
+  flex-wrap: wrap; /* This will wrap the cards to any size screen */
+  margin-top : 100px;
+}
+.card {
+  width: 400px;
+  height: 500px;
+  background-color:#252525;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  margin: 20px;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.card h2 {
+  color: #BAFF39;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card p {
+  color: #BAFF39;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* CARDS END */
+/***** ABOUT US PAGE END *****/
+/***** CONTACT PAGE STYLING *****/
+
+/***** CONTACT PAGE END *****/

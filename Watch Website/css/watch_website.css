@@ -83,6 +83,7 @@ h1 {
     text-align: center; /* Centering all h3 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
     color:#0077b6; /* Makes the font color yellow. */
+    text-shadow: 2px 2px #252525;
 }
 /***** H1 STYLING END *****/
 
@@ -217,81 +218,71 @@ background-color: #252525;
 /***** CARD END *****/
 
 /***** FOOTER STYLING *****/
-footer {
-    display: block;
-  }
-/***** FOOTER END *****/
-
-/***** SIGN UP FORM STYLING *****/
-* {box-sizing: border-box}
-
-/* Full-width input fields */
-  input[type=text], input[type=password] {
+.footer {
+  margin-top: 50px;
   width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
+  padding: 100px, 15%;
+  background: #333;
+  color: #efefef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
 }
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
+.footer div {
+  text-align: center;
+}
+.col-1 {
+  flex: 1;
+  text-align: left;
+}
+.col-2 {
+  flex: 1;
+  text-align: center;
+}
+.col-3 {
+  flex: 1;
+  text-align: right; 
+}
+.footer div h3 {
+  font-weight:  300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.col-1 a {
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom: 10px;
+}
+form input {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
   outline: none;
-}
-
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
   border: none;
+}
+form button {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
   cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
 }
-
-button:hover {
-  opacity:1;
+.social-icons {
+  margin-top: 30px;
 }
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
+.social-icons i {
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
 }
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-
-/* Add padding to container elements */
-.container {
-  padding: 16px;
-}
-
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-    width: 100%;
-  }
-}
-/***** SIGN UP FORM END *****/
+/***** FOOTER STYLING END *****/
 
 /***** PAGE TWO SANTOS ******/
 /***** PAGE TWO SANTOS ******/
