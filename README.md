@@ -15,4 +15,8 @@ The pages that are linked in the cards link to a page displaying the associated 
 
 <h1>Motorcycle Website</h1>
 
-<p>This single page website features a model of motorcycle with the options to click the color circles to change the image of the bikes color.<p>
+<p>This single page website features a model of motorcycle with the options to click the color circles to change the image of the bikes color.</p>
+
+<h1>Netflix Clone Website</h1>
+
+<p>This website is a clone of the main page of Netflix. All features from images, email submit bar, accordian for FAQ and Footer with all the links.</p>
