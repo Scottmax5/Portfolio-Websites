@@ -12,3 +12,7 @@ The pages that are linked in the cards link to a page displaying the associated 
 <h1>Dog Insurance Website</h1>
 
 <p>This website is a template for a pet/dog insurane website, the main page has a header with background picture. Text boxes with links to the appropriate webpages, and a footer with links to different pages including a return to the top of page. The footer also has a email submit form, and the contract information with social media links. The rest of the website has information of company with useful links to the contact page with a fully functioning contact form. The sticky navbar is present on all pages for easy navigation.</p>
+
+<h1>Motorcycle Website</h1>
+
+<p>This single page website features a model of motorcycle with the options to click the color circles to change the image of the bikes color.<p>
