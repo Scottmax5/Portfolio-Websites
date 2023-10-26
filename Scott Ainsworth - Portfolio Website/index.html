@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>  
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intiial-scale=1.0">
+        <title>Scott Ainsworth | Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/01d280de21.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!----- HEADER ----->
+        <div id="header">
+            <div class="container">
+                <!----- NAVBAR ----->
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <!----- NAVBAR END ----->
+                <!----- HEADER TEXT ----->
+                <div class="header-text">
+                    <p>Web and Software Developer</p>
+                    <h1>Hi, I'm <span>Scott</span><br>Ainsworth from Canada</h1>
+                </div>
+                <!----- HEADER TEXT END ----->
+            </div>            
+        </div>
+        <!----- HEADER END ----->
+
+        <!----- ABOUT SECTION ----->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I'm a recent graduate from Academy of Learning Career College and The Tech Academy. I have been trained in Full-Stack software and web development.
+                            <br>
+                            <br>
+                            I have worked in a few different careers and have become very successful in all of them. I strive to perform to the best of my abilities, but also love to 
+                            be challenged and learn new things. I am always passionate to learn more and become better.
+                            <br>
+                            <br>
+                            I'm incredibly confident and believe I can do anything if I put the time and dedication in the right places. I can be a valuable asset because I believe
+                             with enough time I can become one of the most important people inside any company. I would love to become part of your team, and grow my knowledge and 
+                             aid in your company's growth. I can't wait to hear back from you and thank you for your time.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>What I offer</span><br>I have been trained in Full-Stack Development, my skills include</li>
+                                <li><span>Web Development</span><br>HTML, CSS and JavaScript</li>
+                                <li><span>Software Applications</span><br>C#, .NET Framework and Python</li>
+                                <li><span>Databases</span><br>SQL and Databases</li>
+                            </ul>
+                        </div>
+                        <!-- <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 - Current</span><br>UI/UX Design Training at ET</li>
+                                <li><span>2019 - 2021</span><br>Team lead at StarApp LLC.</li>
+                                <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                                <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                            </ul>
+                        </div> -->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span><br>Web and Software Developement at Academy of Learning <br> Career College and The Tech Academy.</li>
+                                <!-- <li><span>2016</span><br>MBA from MIT Bangalore.</li>
+                                <li><span>2014</span><br>BBA from ISM Bangalore.</li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----- ABOUT END ----->
+
+        <!------ SERVICES ----->   
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Building websites is a passion and stepping stone of my career. Come check out what I have done!</p>
+                        <a href="https://github.com/Scottmax5/Portfolio-Websites">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Web Projects</h2>
+                        <p>These projects are smaller self contained projects I've developed to showcase my various skills.</p>
+                        <a href="https://github.com/Scottmax5/Portfolio-Projects">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-book"></i>
+                        <h2>School Projects</h2>
+                        <p>I learned multiple languages and skills for my schooling, check out some of these projects.</p>
+                        <a href="https://github.com/Scottmax5">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----- SERVICES END ----->
+
+        <!----- PORTFOLIO ----->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.jpg">
+                        <div class="layer">
+                            <h3>Netflix Clone Websites</h3>
+                            <p>This one page website I designed is a clone of the home page of Netflix.</p>
+                            <a href="https://github.com/Scottmax5/Portfolio-Websites/tree/main/Netflix%20Clone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.jpg">
+                        <div class="layer">
+                            <h3>Music Player</h3>
+                            <p>This music player made in HTML, CSS and JS showcases my skills in utilizing these languages together.</p>
+                            <a href="https://github.com/Scottmax5/Portfolio-Projects/tree/main/Music%20Player"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.jpg">
+                        <div class="layer">
+                            <h3>School Projects</h3>
+                            <p>This is a Tic Tac Toe project I complete during my schooling, it's a fully interactive game of Tic Tac Toe. </p>
+                            <a href="https://github.com/Scottmax5/JavaScript-Projects/tree/main/TicTacToe"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!----- CONTACT ----->
+
+        <!----- PORTFOLIO END ----->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> scottainsworth1979@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> 250-878-4888</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/my-cv.pdf" download class="btn btn2">Download Cv</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>    
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Scott. Made <i class="fa-solid fa-heart"></i> by Scott Ainsworth</p>
+            </div>
+        </div>
+        <!----- CONTACT END ----->
+
+        <!----- JS ----->
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){ /*This will close the tabs for the skills/experience/education tabs and hide the contet*/
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link"); /*This will open the tabs */
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+        <!-- Mobile sidemenu-->
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = '<https://script.google.com/macros/s/AKfycbxUt-yBDMnzY1tyoAULiJ_ueqbZcH5HwyjEwfjhRLJ1GteYyI60Hyor1VTrQ2zWzrha/exec>'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+                })
+        </script>
+        <!----- JS END ----->
+    </body>
+</html>
