@@ -19,4 +19,4 @@ The pages that are linked in the cards link to a page displaying the associated 
 
 <h1>Netflix Clone Website</h1>
 
-<p>This website is a clone of the main page of Netflix. All features from images, email submit bar, accordian for FAQ and Footer with all the links.</p>
+<p>This website is a clone of the main page of Netflix. All features from images, email submit bar, accordian for FAQ and Footer with all the links. This website is fully responsive for all screen sizes.</p>
