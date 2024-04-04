@@ -3,6 +3,13 @@ Examples of websites built by me to showcase my skills.
 
 This portfolio is a constant work in progress and will be updated as I have completed and added to the repository.
 
+<h1>Excavating Contractor Website<h1>
+<p>This is website is to show off my front-end and website design skills. It has been designed fully to replicate and Excavating / Construction contractors website. It has a front-page, About page, Service page, and Contact form page.<p>
+
+
+<h1>Amazon Clone Website<h1>
+<p>This Amazon clone website is of the frontpage of Amazon e-commerce website. It's a project I completed to show off my front-end design skills and has a product wheel you can scroll with your mousewheel made with JavaScript.<p>
+
 <h1>Facebook Clone Website</h1>
 <p>This website is a clone of a Facebook/Social Media website. It showcases my frontend development and design skills. There is a drop down menu when you click on the profile picture at the top right with a fully functional dark mode that is designed with Javascript to save your dark mode settings when refreshing website.</p>
 
