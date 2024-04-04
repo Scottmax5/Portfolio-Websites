@@ -1,6 +1,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ainsworth Excavating</title>
     <link rel="stylesheet" href="style.css">
@@ -15,8 +16,11 @@
             <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
         </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
     </nav>
+    
     <!-----HERO----->
     <div class="hero-image">
         <div class="hero-text">
@@ -29,7 +33,7 @@
     </div>
 
     <!-----About----->
-    <body id="2-col-img-txt">
+    <div id="2-col-img-txt">
         <div class="container">
             <div class="row">
                 <div class="img-txt-col-1">
@@ -120,5 +124,17 @@
         </div>
     </div>
     <hr>
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>

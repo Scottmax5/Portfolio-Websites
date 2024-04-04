@@ -14,14 +14,15 @@
             <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
         </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
     </nav>
 
     <div class="title-sec">
         <div class="title-text">
           <h1>Ainsworth Excavating</h1>
           <p>20 years of industry experience</p>
-          <!-- <button>Contact us</button> -->
         </div>
     </div>
 
@@ -29,7 +30,7 @@
         <div class="container">
             <div class="row">
                 <div class="one-col-large">
-                    <h1 class="sub-title">Contact us for a quote</h1>
+                    <h1 class="one-col-sub-title">Contact us for a quote</h1>
                     <p>We would love to work with you! Give us a call or send an email and we will have our team contact with you as 
                         soon as possible. Our sales team will work as hard as they can to quote you with a reasonable price for your 
                         project.</p
@@ -43,9 +44,9 @@
         <div class="container">
             <div class="row">
                 <div class="contact-left">
-                    <h1 class="sub-title">Contact Us</h1>
+                    <h1 class="contact-sub-title"><i class="fa-solid fa-envelope"></i>Contact Us</h1>
                     <p><i class="fa-solid fa-paper-plane"></i> ourcompany@email.com</p>
-                    <p><i class="fa-solid fa-square-phone"></i> 867-5309</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 1-111-867-5309</p>
                     <div class="social-icons">
                         <a href=""><i class="fa-brands fa-facebook"></i></a>
                         <a href=""><i class="fa-brands fa-twitter-square"></i></a>
@@ -70,12 +71,20 @@
     <div class="call-to-action">
         <div class="cta-text">
           <h1>Ainsworth Excavating</h1>
-          <p></p>
-          <!-- <a href="contact.html">
-          <button>Contact us</button>
-        </a> -->
         </div>
     </div>
     <hr>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
 </body>
 </html>

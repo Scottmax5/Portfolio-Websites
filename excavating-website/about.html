@@ -14,14 +14,15 @@
             <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
         </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
     </nav>
 
     <div class="title-sec">
         <div class="title-text">
           <h1>Ainsworth Excavating</h1>
           <p>20 years of industry experience</p>
-          <!-- <button>Contact us</button> -->
         </div>
     </div>
 
@@ -92,5 +93,16 @@
         </div>
     </div>
     <hr>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>
