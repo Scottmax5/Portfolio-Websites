@@ -4,7 +4,9 @@ Examples of websites built by me to showcase my skills.
 This portfolio is a constant work in progress and will be updated as I have completed and added to the repository.
 
 <h1>Excavating Contractor Website<h1>
-<p>This is website is to show off my front-end and website design skills. It has been designed fully to replicate and Excavating / Construction contractors website. It has a front-page, About page, Service page, and Contact form page.<p>
+<p>This is website is to show off my front-end and website design skills. It has been designed fully to replicate and Excavating / Construction contractors website. It has a front-page, About page, Service page, and Contact form page.
+
+This website is fully responsive for mobile devices.<p>
 
 
 <h1>Amazon Clone Website<h1>
