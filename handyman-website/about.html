@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/01d280de21.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+
+    <div class="title-sec">
+        <div class="title-text">
+            <h1>Dave's Handyman Services</h1>
+            <p>Jack of all trades, servicing customers with mechanical, electrical, plumbing, carpentry and all other projects.</p>
+        </div>
+    </div>
+
+    <div id="2-col-img-txt">
+        <div class="container">
+            <div class="img-txt-row">
+                <div class="img-txt-col-1">
+                    <img src="images/about-1.jpg" style="max-width:100%;height:auto;">
+                </div>
+                <div class="img-txt-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hey I'm Dave, a red seal electrian, carpenter, plumber and full time handy man at your service!
+                        <br>
+                        <br>
+                        I'm a skilled tradesman, who is pursuing the self-employed dream and building peoples dreams. Have a project in need of help? Well I am the man for the job.
+                        <br>
+                        <br>
+                        Skilled in many trades and a life long career in the trades I've dedicated myself to private and commerical projects.
+                        <br>
+                        <br>
+                        Everything from building your new deck to finishing that downstairs bathroom you said you'd eventually get to, I'm here to help.</p
+                    </div>
+                </div>
+            </div>
+        <div>
+    </div>
+
+    <hr>
+<div class="full-img-text-1">
+    <div class="full-text">
+        <h1>15 years experience with Electrical</h1>
+    </div>
+</div>
+<hr>
+<div class="full-img-text-2">
+    <div class="full-text">
+        <h1>30 years experience with Carpentry</h1>
+    </div>
+</div>
+<hr>
+<div class="full-img-text-3">
+    <div class="full-text">
+        <h1>20 years experience with plumbing</h1>
+    </div>
+</div>
+<hr>
+    
+    <hr>
+    <div class="call-to-action">
+        <div class="cta-text">
+          <h1>Dave's Handyman Services</h1>
+          <p></p>
+          <a href="contact.html">
+          <button>Contact me</button>
+        </a>
+        </div>
+    </div>
+    <hr>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
