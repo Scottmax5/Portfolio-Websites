@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/01d280de21.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-----navbar----->
+    <nav>
+        <ul id="sidemenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+
+    <!-----Title-sec----->
+    <div class="title-sec">
+        <div class="title-text">
+            <h1>Fine Wine Dining</h1>
+            <p>The best dining experience in the valley.</p>
+        </div>
+    </div>
+
+    <!-----Full-img-text----->
+    <div class="full-img-text-3">
+        <div class="full-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+
+    <!-----contact-form----->
+    <div id="contact">
+        <div class="container">
+            <div class="contact-row">
+                <div class="contact-left">
+                    <h1 class="contact-sub-title">Contact Us</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ourcompany@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 1-111-867-5309</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>    
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <!-----Call to Action----->
+    <div class="call-to-action">
+        <div class="cta-text">
+            <h1>Fine Wine Dining</h1>
+            <p>The best dining experience in the valley.</p>
+        </div>
+    </div>
+
+    <!-----Footer----->
+    <footer>
+        <div class="footer">
+            <div class="footer-col-1">
+                <h3>Useful links</h3>
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="contact.html">Top of the page</a>
+            </div>
+            <div class="footer-col-2">
+                <h3>Have a question? Contact us!</h3>
+                <a href="contact.html">
+                    <button>Contact Us</button>
+                </a>
+            </div>
+            <div class="footer-col-3">
+                <h3>Contact</h3>
+                <p>Phone: 1-111-867-5309</p>
+                <br>
+                <p>123, XYZ Road, V1V 1A1<br> Kelowna, British Columbia Canada</p>
+                <div class="social-icons">
+                    <i clas="fa-brands fa-facebook"></i>
+                    <i clas="fa-brands fa-twitter"></i>
+                    <i clas="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-----JS for nav mobile----->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.left = "0";
+        }
+        function closemenu(){
+            sidemenu.style.left = "-200px";
+        }
+    </script>
+</body>
+</html>

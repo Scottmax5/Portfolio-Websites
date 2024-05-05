@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/01d280de21.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-----navbar----->
+    <nav>
+        <ul id="sidemenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+
+    <!-----hero----->
+    <div class="hero-image">
+        <div class="hero-text">
+        <h1>Fine Wine Dining</h1>
+        <p>The best dining experience in the valley.</p>
+        <a href="contact.html">
+            <button>Book now</button>
+        </a>
+        </div>
+    </div>
+
+    <!-----2-col img-txt----->
+    <div id="2-col-txt-img">
+        <div class="container">
+            <div class="txt-img-row">
+                <div class="txt-img-col-1">
+                    <h1 class="txt-img-sub-title">Food from our Chef</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <br><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p
+                    </div>
+                </div>
+                <div class="txt-img-col-2">
+                    <img src="images/pic-1.jpg" style="max-width:100%;height:auto;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----Full-img-text----->
+    <div class="full-img-text">
+        <div class="full-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+            officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+
+    <!-----2-col-txt----->
+    <div id="2-col-txt">
+        <div class="container">
+            <div class="two-col-row">
+                <div class="txt-col-1">
+                    <h1 class="two-col-sub-title">Dine in</h1>
+                    <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                    officia deserunt mollit anim id est laborum.</p
+                    </div>
+                </div>
+                <div class="txt-col-2">
+                    <h1 class="two-col-sub-title">Take out</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                        officia deserunt mollit anim id est laborum.</p
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----Call to Action----->
+    <div class="call-to-action">
+        <div class="cta-text">
+            <h1>Fine Wine Dining</h1>
+            <p>The best dining experience in the valley.</p>
+            <a href="contact.html">
+                <button>Book now</button>
+            </a>
+        </div>
+    </div>
+
+    <!-----Footer----->
+    <footer>
+        <div class="footer">
+            <div class="footer-col-1">
+                <h3>Useful links</h3>
+                <a href="menu.html">Menu</a>
+                <a href="contact.html">Contact</a>
+                <a href="index.html">Top of the page</a>
+            </div>
+            <div class="footer-col-2">
+                <h3>Have a question? Contact us!</h3>
+                <a href="contact.html">
+                    <button>Contact Us</button>
+                </a>
+            </div>
+            <div class="footer-col-3">
+                <h3>Contact</h3>
+                <p>Phone: 1-111-867-5309</p>
+                <br>
+                <p>123, XYZ Road, V1V 1A1<br> Kelowna, British Columbia Canada</p>
+                <div class="social-icons">
+                    <i clas="fa-brands fa-facebook"></i>
+                    <i clas="fa-brands fa-twitter"></i>
+                    <i clas="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-----JS for nav mobile----->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.left = "0";
+        }
+        function closemenu(){
+            sidemenu.style.left = "-200px";
+        }
+    </script>
+</body>
+</html>
