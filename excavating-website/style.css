@@ -391,8 +391,12 @@ form .btn2{
     align-items: center;
     min-height: 300px;
 }
+.footer-logo{
+    width: 150px;  
+}
 .footer div{
     text-align: center;
+    margin: 0 20px;
 }
 .footer-col-1{
     flex: 1;
@@ -406,42 +410,53 @@ form .btn2{
     flex: 1;
     text-align: right;
 }
-.footer div h3{
-    font-weight: 300;
+.footer-col-4{
+    flex: 1;
+    text-align: right;
+}
+.footer div h4{
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+    text-align: left;
+    margin-left: 15px;
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
-.footer-col-1 a{
-    display: block;
+.footer div h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.footer p{
+    font-size: 18px;
+}
+.footer-col-2 a{
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
     color: #fff;
     margin-bottom: 10px;
-}
-form input{
-    width: 400px;
-    height: 40px;
-    border-radius: 4px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    outline: none;
-    border: none;
 }
-form button{
-    background: transparent;
-    border: 2px solid #fff;
+.footer-col-3 a{
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
     color: #fff;
-    border-radius: 30px;
-    padding: 10px 30px;
-    font-size: 15px;
-    cursor: pointer;
+    margin-bottom: 10px;
+    text-align: center;
 }
 .social-icons{
     margin-top: 30px;
 }
 .social-icons i{
     font-size: 22px;
-    margin: 10px;
+    margin: 5px;
     cursor: pointer;
 }
 
@@ -619,6 +634,16 @@ nav .fa-solid{
         margin-bottom: 30px;
         text-align: center;
     }
+    .footer-col-4{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .footer-col h4 {
+        font-weight: 300;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
     .footer-col h3 {
         font-weight: 300;
         margin-bottom: 20px;
@@ -629,18 +654,6 @@ nav .fa-solid{
         text-decoration: none;
         color: #fff;
         margin-bottom: 10px;
-    }
-    form {
-        margin-bottom: 20px;
-    }
-    form button {
-        background: transparent;
-        border: 2px solid #fff;
-        color: #fff;
-        border-radius: 30px;
-        padding: 10px 30px;
-        font-size: 15px;
-        cursor: pointer;
     }
     .social-icons {
         margin-top: 20px;
